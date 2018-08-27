@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.materialchips.views.ScrollViewMaxHeight xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    app:maxHeight="150dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rultech.View.EmptyRecyclerView
+            android:id="@+id/chips_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" />
+
+    </RelativeLayout>
+
+</com.materialchips.views.ScrollViewMaxHeight>

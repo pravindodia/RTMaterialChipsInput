@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.materialchips.ChipsInput
+            android:id="@+id/chips_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            app:chip_backgroundColor="@color/colorPrimary"
+            app:chip_deletable="false"
+            app:chip_hasAvatarIcon="true"
+            app:chip_labelColor="@android:color/white"
+            app:hint="Click here to select countries"
+            app:maxRows="3"
+            app:showChipDetailed="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>
